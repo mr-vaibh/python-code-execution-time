@@ -12,3 +12,21 @@ def exec_time(function):
         return result
     
     return wrapper
+
+def exec_time_for(function, time_in='seconds'):
+    start_time = time.perf_counter()
+    function()
+    end_time = time.perf_counter()
+    
+    execution_time = end_time - start_time
+    
+    if time_in == 'milliseconds':
+        execution_time *= 1000
+    elif time_in == 'seconds':
+        pass
+    elif time_in == 'minutes':
+        execution_time /= 60
+    else:
+        raise Exception('exec_time_for() function only accepts \'milliseconds\'/\seconds\'/\'minutes\' as 2 positional parameter')
+    
+    return execution_time
