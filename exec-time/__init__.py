@@ -30,10 +30,3 @@ def exec_time_for(function, time_in='seconds'):
         raise Exception('exec_time_for() function only accepts ONE of (\'milliseconds\', seconds\', \'minutes\') as 2 positional parameter')
     
     return execution_time
-
-def func():
-    x = 0
-    for i in range(1000000):
-        x += 1
-
-print(exec_time_for(func, time_in='sd'))
