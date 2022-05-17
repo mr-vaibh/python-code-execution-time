@@ -1,30 +1,34 @@
-# exec-time
-[![Downloads](https://static.pepy.tech/personalized-badge/exec-time?period=total&units=international_system&left_color=black&right_color=orange&left_text=Downloads)](https://pepy.tech/project/exec-time)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/mr-vaibh/python-code-execution-time/blob/master/LICENSE)
+exec-time documentation
+=====
 
-A code snippet used to compare execution time of two Python code
+**exec-time** is a very tiny package provides a decorator help you
+measure the execution time (in milliseconds) of functions.
 
-## Installation
+PYPI official page: <https://pypi.org/project/exec-time/>
+
+[![image](https://static.pepy.tech/personalized-badge/exec-time?period=total&units=international_system&left_color=black&right_color=orange&left_text=Downloads)](https://pepy.tech/project/exec-time)
+[![image](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/mr-vaibh/python-code-execution-time/blob/master/LICENSE)
+
+Installation
+-----
 
 You should be able to install using `pip` in the usual ways:
 
-```sh
-$ pip install exec-time
-```
+`$ pip install exec-time`
 
 Or just clone this repository and run:
 
-```sh
-$ python setup.py install
-```
+`$ python setup.py install`
 
-Or place the `exec-time` folder that you downloaded somewhere where it can be accessed by your scripts.
+Or place the [exec-time]{.title-ref} folder that you downloaded
+somewhere where it can be accessed by your scripts.
 
-## Usage
+Usage
+=====
 
 Add your code snippets in `first_func` and `second_func` respectively for comparison
 
-```python
+``` {.python}
 # === USAGE ===
 @exec_time
 def first_func():
@@ -44,10 +48,10 @@ first_func()
 second_func()
 ```
 
-```
+``` {.python}
 # === OUTPUT ===
-first_func function executed in : 0.32839999767020345 mil sec
-second_func function executed in : 0.006199989002197981 mil sec
+# first_func function executed in : 0.32839999767020345 mil sec
+# second_func function executed in : 0.006199989002197981 mil sec
 ```
 
-That's it, enjoy 🍷
+That\'s it, enjoy 🍷
