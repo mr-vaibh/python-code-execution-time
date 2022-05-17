@@ -28,7 +28,7 @@ Or place the `exec-time` folder that you downloaded somewhere where it can be ac
 Usage
 -----
 
-Add your code snippets in `first_func` and `second_func` respectively for comparison
+Add your code snippets in ``first_func`` and ``second_func`` respectively for comparison
 
 .. code:: python
 
