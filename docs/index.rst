@@ -3,6 +3,9 @@ exec-time documentation
 
 **exec-time** is a very tiny package provides a decorator help you measure the execution time (in milliseconds) of functions.
 
+PYPI official page: https://pypi.org/project/exec-time/
+
+
 .. image:: https://static.pepy.tech/personalized-badge/exec-time?period=total&units=international_system&left_color=black&right_color=orange&left_text=Downloads
     :target: https://pepy.tech/project/exec-time
 
