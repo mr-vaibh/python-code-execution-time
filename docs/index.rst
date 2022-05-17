@@ -11,16 +11,11 @@ Installation
 
 You should be able to install using ``pip`` in the usual ways:
 
-.. code:: sh
-
-    $ pip install exec-time
-
+``$ pip install exec-time``
 
 Or just clone this repository and run:
 
-.. code:: sh
-
-    $ python setup.py install
+``$ python setup.py install``
 
 Or place the `exec-time` folder that you downloaded somewhere where it can be accessed by your scripts.
 
