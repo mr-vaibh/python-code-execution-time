@@ -1,10 +1,13 @@
-exec-time
+exec-time documentation
 =====
-`Downloads <https://pepy.tech/project/exec-time>`_
-|
-`License: MIT <https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/mr-vaibh/python-code-execution-time/blob/master/LICENSE>`_
 
-A code snippet used to compare execution time of two Python code
+**exec-time** is a very tiny package provides a decorator help you measure the execution time (in milliseconds) of functions.
+
+.. image:: https://static.pepy.tech/personalized-badge/exec-time?period=total&units=international_system&left_color=black&right_color=orange&left_text=Downloads
+    :target: https://pepy.tech/project/exec-time
+
+.. image:: https://img.shields.io/badge/License-MIT-blue.svg
+    :target: https://github.com/mr-vaibh/python-code-execution-time/blob/master/LICENSE
 
 Installation
 -----
