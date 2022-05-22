@@ -1,7 +1,7 @@
 exec-time documentation
 =====
 
-"kamaal hai!, ab DOCS bhi mai hi likhu?"
+*"kamaal hai!, ab DOCS bhi mai hi likhu?"*
 
 **exec-time** is a very tiny package provides a decorator help you measure the execution time (in milliseconds) of functions.
 
